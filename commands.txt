@@ -1,0 +1,22 @@
+
+conda create -p venv python=3.10 -y
+
+
+pip install -r requirements.txt 
+
+If opneai imports throws error, the
+
+import sys
+print(sys.executable)
+#https://stackoverflow.com/questions/74311275/modulenotfounderror-no-module-named-openai
+
+
+get the file path from the above command output
+
+c:\Users\Sumit\GIT_Local\open_api\venv\python.exe -m pip install openai
+
+While importing the the python-dotenv it throws error
+
+c:\Users\Sumit\GIT_Local\open_api\venv\python.exe -m pip install python-dotenv
+
+https://stackoverflow.com/questions/59572174/no-module-named-dotenv-python-3-8
